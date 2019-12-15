@@ -1,0 +1,21 @@
+name: TutorialPlugin
+main: io.github.bounceback.tutorialplugin.TutorialPlugin
+version: 0.1
+author: me
+description: stop throwing an error
+commands:
+  copyme:
+    description: Demo
+    usage: /copyme [width] [length] [height] [cat1] [cat2] [cat3]
+  pasteme:
+    description: Demo
+    usage: /pasteme {cat1} {cat2} {cat3}
+  listkeys:
+    description: List subcategories of given categories
+    usage: /listkeys {cat1} {cat2}
+  delallsch:
+    description: Delete all schematics
+    usage: /delallsch
+  copypasteone:
+    description: test
+    usage: /copypasteone
